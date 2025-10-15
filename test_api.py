@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 B_URL = "http://localhost:5000"
-B_URL = "https://project1-tds-t3-2025-main-hi1f12z2f.vercel.app"
+B_URL = "https://project1-tds-t3-2025-main.vercel.app/"
 API_URL =B_URL + "/api-endpoint"
 SECRET = os.getenv("SECRET", "your_secret_key_here")
 
